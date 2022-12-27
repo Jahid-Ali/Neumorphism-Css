@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neumorphism</title>
+
+    <style>
+        body {
+            background-color: rgb(35, 35, 35);
+            color: rgb(255, 64, 0);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .common-class {
+            display: flex;
+            background-color: rgb(234, 234, 234);
+        }
+
+        .fst-sub-container {}
+
+        .logo {
+            padding: 30px;
+            margin: 10px 10px;
+        }
+
+        .logo-1 {
+            border-radius: 150px;
+            background: linear-gradient(145deg, #d4d5df, #fdfeff);
+            box-shadow: 6px 6px 12px #c9c9d3, -6px -6px 12px #ffffff;
+        }
+
+        .logo-2 {
+            border-radius: 20px;
+            background: #ecedf8;
+            box-shadow: inset 6px 6px 12px #c6c7d0, inset -6px -6px 12px #ffffff;
+        }
+
+        .logo-3 {
+            border-radius: 20px;
+            background: linear-gradient(145deg, #fdfeff #d4d5df);
+            box-shadow: 6px 6px 12px #c6c7d0, -6px -6px 12px #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="fst-sub-container common-class">
+            <div class="logo logo-1">1</div>
+            <div class="logo logo-1">1</div>
+            <div class="logo logo-1">1</div>
+        </div>
+        <div class="sec-sub-container common-class">
+            <div class="logo logo-2">2</div>
+            <div class="logo logo-2">2</div>
+            <div class="logo logo-2">2</div>
+        </div>
+        <div class="thd-sub-container common-class">
+            <div class="logo logo-3">3</div>
+            <div class="logo logo-3">3</div>
+            <div class="logo logo-3">3</div>
+        </div>
+    </div>
+</body>
+
+</html>
